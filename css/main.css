@@ -1,0 +1,771 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    background: #0A0A0B;
+    color: #ffffff;
+    background-image: url(../icons/big-top.svg), url(../icons/small-top.svg);
+    background-repeat: no-repeat;
+    background-position-x: 0px , 100% ;
+    background-position-y: 0px, 5%;
+}
+
+.container{
+    width: 970px;
+    margin: 0px auto;
+    padding: 0px 155px;
+}
+
+/* 
+=======================================
+HEADER START
+=======================================  
+*/
+header{
+    padding: 29px 129px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    width: 358px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list-item{
+    margin-bottom: 95px;
+    list-style-type: none;
+}
+
+.nav-list-item-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#nav-list-item-link-active{
+    color: #4177DC;
+    text-shadow: 0px 0px 32px #346DDA;
+}
+/* 
+=======================================
+HEADER END
+=======================================  
+*/
+
+/* 
+=======================================
+HERO START
+=======================================  
+*/
+
+.hero-heading{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-sub-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.hero-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    text-align: center;
+    padding-left: 14px;
+    background-image: url(../icons/zipper-icon.svg);
+    background-repeat: no-repeat;
+    background-position-x: 270px;
+    margin-bottom: 48px;
+}
+
+.hero-img{
+    margin-left: 145px;
+}
+
+.hero-list{
+    display: flex;
+    width: 405px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 112px;
+    margin-top: 15px;
+}
+
+.hero-list-item{
+    text-align: center;
+    padding-top: 55px;
+}
+
+.hero-list-item-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.hero-list-item-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #888B91;
+}
+
+.hero-list-item-maintext{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+#hero-list-item-1{
+    background-image: url(../icons/hero-temperature.svg);
+    background-repeat: no-repeat;
+    background-position: 32px 20px;
+}
+
+#hero-list-item-2{
+    padding-top: 22px;
+}
+
+#hero-list-item-3{
+    background-image: url(../icons/zipper-icon-2.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 20px;
+}
+
+.hero-button{
+    border: none;
+    background: #0A0A0B;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: 2px solid #099260;
+    border-radius: 50%;
+    padding: 25px 14px;
+    width: 70px;
+    height: 70px;
+    margin-top: 13px;
+    margin-left: 13px;
+    /* filter: drop-shadow(0px 0px 16px #02DB8A); */
+    
+}
+
+.button-box{
+    border: 2px solid #02DB8A;
+    filter: drop-shadow(0px 0px 16px #02DB8A);
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    border-radius: 50%;
+    margin-top: 56px;
+    margin-left: 285px;
+}
+
+/* 
+=======================================
+TECHNOLOGY START
+=======================================  
+*/
+
+.technology-section .container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 114px;
+    margin-bottom: 230px;
+}
+
+.technology--blur-box{
+    position: absolute;
+    width: 197px;
+    height: 104px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    padding: 16px 20px;
+    top: 270px;
+    left: 440px;
+}
+
+.technology--blur-box-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.technology--blur-box-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.technology-info{
+    margin-left: 88px;
+}
+
+.technology-info-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    width: 210px;
+    margin-bottom: 24px;
+}
+
+.technology-info-text{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    width: 400px;
+    margin-bottom: 48px;
+}
+
+.technology-info{
+    margin-left: 250px;
+}
+
+.technology-info-button{
+    width: 149px;
+    height: 50px;
+    background: #4177DC;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+}
+/* 
+=======================================
+TECHNOLOGY END
+=======================================  
+*/
+
+/* 
+=======================================
+PORSCHE BREND START
+=======================================  
+*/
+
+.porsche-section .container{
+    padding: 0;
+}
+
+.porsche-heading{
+    width: 278px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 64px;
+}
+
+.porsche-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.porsche-list-item{
+    position: relative;
+    width: 258px;
+    height: 328px;
+    background: #111213;
+    border-radius: 20px;
+    list-style-type: none;
+    padding: 32px 22px 0px 24px;
+    background-image:url(../icons/bachgound-porsche-icon.svg);
+    background-repeat: no-repeat;
+}
+.porsche-list-item-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    
+}
+
+.porsche-list-item-sub-heading{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    margin-bottom: 12px;
+}
+
+.porsche-list-item-img{
+    margin-left: 32px;
+    margin-bottom: 20px;
+}
+
+.porsche-time{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    padding-left: 19px;
+    background-image: url(../icons/speed.table-icon.svg);
+    background-repeat: no-repeat;
+    background-position-y: 1px;
+    margin-right: 21px;
+    margin-bottom: 8px;
+}
+
+.porsche-distance{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    padding-left: 19px;
+    background-image: url(../icons/line.table-icon.svg);
+    background-repeat: no-repeat;
+    background-position-y: 1px;
+}
+
+.porsche-type{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    padding-left: 19px;
+    background-image: url(../icons/charger-icon.svg);
+    background-repeat: no-repeat;
+    background-position-y: 1px;
+    margin-bottom: 31px;
+}
+
+.porsche-price{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.porsche-button{
+    position: absolute;
+    width: 56px;
+    height: 48px;
+    background: #4177DC;
+    border-radius: 20px 0px;
+    border:none;
+    right: 0;
+    bottom: 0;
+}
+
+.nav-dots{
+    width: 38px;
+    margin: 0px auto;
+    margin-top: 48px;
+}
+
+.dot{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #BABEC4;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+#dot-active{
+    background: #4177DC;
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+}
+/* 
+=======================================
+PORSCHE BREND END
+=======================================  
+*/
+
+/* 
+=======================================
+FEATURES START
+=======================================  
+*/
+.features-section .container{
+    position: relative;
+    background-image: url(../icons/Map-icon.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: -50px;
+}
+
+
+.features-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    text-align: center;
+    margin-top: 121px;
+    margin-bottom: 64px;
+}
+
+.features-img{
+    display: block;
+    margin: 0px auto;
+}
+
+.features-blur-box{
+    position: absolute;
+    width: 127px;
+    height: 92px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 12px 39px 12px 40px;
+}
+
+.features-blur-box-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.features-blur-box-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #F1F2F3;
+}
+
+#features-blur-box-1{
+    top: 155px;
+    left: 310px;
+}
+
+#features-blur-box-2{
+    top: 215px;
+    left: 530px;
+}
+
+#features-blur-box-3{
+    top: 365px;
+    left: 310px;
+}
+/* 
+=======================================
+FEATURES END
+=======================================  
+*/
+
+/* 
+=======================================
+LUXUARY CARS START
+=======================================  
+*/
+
+.luxuary-section .container{
+    padding: 0;
+}
+
+.luxuary-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    text-align: center;
+    margin-top: 152px;
+    margin-bottom: 50px;
+}
+
+.luxuary-brends-list{
+    width: 304px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px auto;
+}
+
+.luxuary-brends-list-item-1{
+    background: #4177DC;
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.luxuary-brends-list-item-button{
+    padding: auto;
+    background: #111213;
+    border-radius: 16px;
+    width: 52px;
+    height: 52px;
+    border: none;
+}
+
+.luxuary-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 72px;
+    margin: 0px auto;
+    margin-top: 72px;
+}
+
+.luxuary-list-item{
+    position: relative;
+    width: 248px;
+    height: 312px;
+    background: #111213;
+    border-radius: 20px;
+    list-style-type: none;
+    padding: 32px 22px 0px 24px;
+    background-image:url(../icons/luxuary-background-icon.svg);
+    background-repeat: no-repeat;
+}
+.luxuary-list-item-heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+}
+
+.luxuary-list-item-sub-heading{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    margin-bottom: 12px;
+}
+
+.luxuary-list-item-img{
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+.luxuary-price{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.luxuary-button{
+    position: absolute;
+    width: 56px;
+    height: 48px;
+    background: #4177DC;
+    border-radius: 20px 0px;
+    border:none;
+    right: 0;
+    bottom: 0;
+}
+/* 
+=======================================
+LUXUARY CARS END
+=======================================  
+*/
+
+/* 
+=======================================
+OFFERS START
+=======================================  
+*/
+
+.offers-section{
+    background-image: url(../images/offers-background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 392px;
+    margin-top: 72px;
+}
+
+.offers-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.offers-info{
+    width: 380px;
+}
+
+.offers-info-heading{
+    padding-top: 72px;
+    width: 312px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    margin-bottom: 32px;
+}
+
+.offers-info-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    margin-bottom: 48px;
+}
+
+.offers-info-button{
+    border: none;
+    width: 174px;
+    height: 50px;
+    background: #4177DC;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+/* 
+=======================================
+OFFERS END
+=======================================  
+*/
+
+/* 
+=======================================
+ALL BRENDS START
+=======================================  
+*/
+
+.all-brends-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 76px;
+    padding: 0;
+}
+
+.all-brends-button{
+    border: none;
+    background: #0A0A0B;
+    padding: auto;
+    
+}
+/* 
+=======================================
+ALL BRENDS END
+=======================================  
+*/
+
+/* 
+=======================================
+FOOTER STAR
+=======================================  
+*/
+
+.footer{
+    position: relative;
+    background-image: url(../icons/bigbuttom.svg), url(../icons/small-buttom.svg);
+    background-repeat: no-repeat;
+    background-position-x: 0px , 100% ;
+    background-position-y: 0px, 100%;
+
+}
+
+.footer .container{
+    padding: 0;
+    margin: 0px 100px;
+    margin-top: 140px;
+}
+
+.footer-list{
+    width: 1300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    list-style-type: none;
+}
+
+.footer-list-item{
+    
+}
+
+.footer-list-item-link1{
+    display: block;
+}
+
+.footer-list-item-link2{
+    display: inline;
+    margin-right: 32px;
+}
+
+.footer-list-item-text{
+    width: 198px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #BABEC4;
+    margin-top: 24px;
+}
+
+.footer-list-item-heading1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #F1F2F3;
+    margin-bottom: 24px;
+}
+
+.footer-list-item-link1{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    margin-bottom: 12px;
+}
+
+.footer-last-link{
+    margin-top: 103px;
+    display: block;
+    margin-left: 550px;
+    padding-left: 15px;
+    background-image: url(../images/Vector-5.png);
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #888B91;
+    
+}
+/* 
+=======================================
+FOTER END
+=======================================  
+*/
